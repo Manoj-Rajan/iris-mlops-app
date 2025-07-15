@@ -1,21 +1,14 @@
-name: CI - Docker Build
+name: Test CI Trigger
 
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:
-  docker-build:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
-
-    - name: Build Docker image
-      run: docker build -t iris-flask-app .
+      - name: Print success message
+        run: echo "🎉 CI is working!"
