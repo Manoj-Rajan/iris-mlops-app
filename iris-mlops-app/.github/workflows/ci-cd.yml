@@ -3,7 +3,6 @@ name: CI - Docker Build
 on:
   push:
     branches:
-      - main
       - master
 
 jobs:
