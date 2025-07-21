@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/DELL/Documents/My%20Projects/AKS/mlruns/925376095411988420/96b15bacb1eb4590a78c6fec61ee9cf3/artifacts
+end_time: 1752572768653
+entry_point_name: ''
+experiment_id: '925376095411988420'
+lifecycle_stage: active
+run_id: 96b15bacb1eb4590a78c6fec61ee9cf3
+run_name: stylish-conch-678
+run_uuid: 96b15bacb1eb4590a78c6fec61ee9cf3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752572760179
+status: 3
+tags: []
+user_id: DELL
